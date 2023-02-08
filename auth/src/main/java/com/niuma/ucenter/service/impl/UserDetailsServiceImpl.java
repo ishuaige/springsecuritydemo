@@ -70,7 +70,7 @@ public class UserDetailsServiceImpl implements UserDetailsService {
         //权限列表，存放的用户权限
         List<String> permissionList = new ArrayList<>();
 
-        //这里的权限比较简单，实际应该会有权限表，角色表，角色权限表，用户角色表等
+        //todo 这里的权限比较简单，实际应该会有权限表，角色表，角色权限表，用户角色表等
         int role = user.getRole();
         if(role == 1){
             permissionList.add("admin");

@@ -18,27 +18,6 @@ SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
 
 -- ----------------------------
--- Table structure for teacher
--- ----------------------------
-DROP TABLE IF EXISTS `teacher`;
-CREATE TABLE `teacher`  (
-  `id` int(0) NOT NULL AUTO_INCREMENT,
-  `name` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
-  PRIMARY KEY (`id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 75678 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci ROW_FORMAT = Dynamic;
-
--- ----------------------------
--- Records of teacher
--- ----------------------------
-INSERT INTO `teacher` VALUES (3, 'ikun');
-INSERT INTO `teacher` VALUES (4, '快乐星猫');
-INSERT INTO `teacher` VALUES (5, '小白');
-INSERT INTO `teacher` VALUES (6, '哈嗨');
-INSERT INTO `teacher` VALUES (75675, '天才');
-INSERT INTO `teacher` VALUES (75676, '老九');
-INSERT INTO `teacher` VALUES (75677, '快乐蓝猫');
-
--- ----------------------------
 -- Table structure for user
 -- ----------------------------
 DROP TABLE IF EXISTS `user`;

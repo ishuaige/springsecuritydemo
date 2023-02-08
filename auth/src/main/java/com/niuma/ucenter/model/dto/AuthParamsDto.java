@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * 统一认证入口后统一提交的数据
+ * 统一认证入口后统一提交的数据,自己扩展属性
  *
  * @author niuma
  * @create 2023-01-30 11:06

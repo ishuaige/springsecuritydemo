@@ -29,7 +29,11 @@ public class AuthorizationServer extends AuthorizationServerConfigurerAdapter {
     @Autowired
     private AuthenticationManager authenticationManager;
 
-    //客户端详情服务
+    /**
+     * 配置客户端细节 如 客户端 id 秘钥 重定向 url 等
+     *
+     * @throws Exception
+     */
     @Override
     public void configure(ClientDetailsServiceConfigurer clients)
             throws Exception {
